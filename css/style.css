@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+header img{
+    display: block;
+    margin: auto;
+}
+.breakpoint  {
+    max-width: 90%;
+}
+
+@media (min-width: 420px) {
+    .breakpoint  {
+        max-width: 80%;
+    }
+}
+
+/*MENÚ*/
+#menu{
+    padding-bottom: 15px;
+    margin: 0px 10px 0px 10px;
+    background-color:rgb(16,0,20);
+    text-align: center;
+}
+
+#menu ul{
+    list-style: none;
+    display: inline-block;
+}
+
+#menu ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+#menu ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3vw;
+    padding:0vw 2vw 0vw 2vw;
+    letter-spacing: 0.5vw;
+}
+
+#menu ul li a:hover{
+    background-color: #60496f;
+}
+
+
+/*Article Porpiedades Piedras*/
+#propiedadesPiedras h1{
+    margin: 40px 0px 30px 0px;
+    text-align: center;
+    font-size: 6vw;
+}
+/* 1 columna para smartphones */
+.responsive  {
+    text-align: center;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+/* 2 columnas para tablets */
+@media (min-width: 420px) {
+    .responsive  {
+        max-width: 48%;
+    }
+}
+/* 4 columnas para grandes dispositivos*/
+@media (min-width: 800px) {
+    .responsive  {
+        max-width: 24%;
+    }
+}
+.responsive figcaption{
+    font-size: 3vw;
+    padding-top: 5px;
+}
+
+.responsive a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color:rgb(16,0,20);
+    color:white;
+}
+footer h4{
+    font-size:4vw;
+    margin: 15px auto 20px auto;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    width: fit-content;
+}
+
+/*SABÌAS QUE..*/
+#sabiasQue{
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 30px 0px;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+#sabiasQue p{
+    padding-left: 20px;
+}
+
+
+#enlaces{
+    border: 1px solid white;
+    padding-bottom: 15px;
+    margin: 0px 10px 0px 10px;
+    background-color:rgb(16,0,20);
+    text-align: center;
+}
+
+#enlaces ul{
+    list-style: none;
+    display: inline-block;
+}
+
+#enlaces ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+#enlaces ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2vw;
+    padding:0vw 2vw 0vw 2vw;
+}
+
+@media (min-width: 700px) {
+     #sabiasQue,  #enlaces ul li a{
+        font-size: 18px;
+    }
+    #sabiasQue h4{
+        font-size: 24px;
+    }
+}
+
+#imagenesf{
+    margin-top: 15px;
+}
